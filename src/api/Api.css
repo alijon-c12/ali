@@ -1,0 +1,61 @@
+/* Api.css */
+
+.api-container {
+  max-width: 320px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #1e1e2f;
+  color: #fff;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.api-container h2 {
+  margin: 10px 0 5px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.api-container p {
+  margin: 0 0 15px;
+  color: #a0a0b2;
+  font-size: 14px;
+}
+
+.api-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.controls button {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+.controls button:hover {
+  background: linear-gradient(135deg, #4f46e5, #4338ca);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(99, 102, 241, 0.6);
+}
+
+.controls button:active {
+  transform: translateY(0);
+}
